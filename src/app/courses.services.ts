@@ -1,6 +1,6 @@
 
 export class CourseServices{
-    getCourse(){
+    getCourse (){
         return ['javaScript', 'React', 'Vue', 'the shitty course Angular'];
     }
 }
