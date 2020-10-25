@@ -8,12 +8,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     CourseComponent,
-    AuthorComponent
+    AuthorComponent,
+  
   ],
   imports: [
     BrowserModule
